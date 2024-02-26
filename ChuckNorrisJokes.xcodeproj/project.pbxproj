@@ -9,21 +9,39 @@
 /* Begin PBXBuildFile section */
 		3FB1000B2B874F370096BF26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB1000A2B874F370096BF26 /* AppDelegate.swift */; };
 		3FB1000D2B874F370096BF26 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB1000C2B874F370096BF26 /* SceneDelegate.swift */; };
-		3FB1000F2B874F370096BF26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB1000E2B874F370096BF26 /* ViewController.swift */; };
-		3FB100122B874F370096BF26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FB100102B874F370096BF26 /* Main.storyboard */; };
 		3FB100142B874F380096BF26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FB100132B874F380096BF26 /* Assets.xcassets */; };
 		3FB100172B874F380096BF26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FB100152B874F380096BF26 /* LaunchScreen.storyboard */; };
+		3FB100202B8754E20096BF26 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 3FB1001F2B8754E20096BF26 /* Realm */; };
+		3FB100222B8754E20096BF26 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3FB100212B8754E20096BF26 /* RealmSwift */; };
+		3FB100252B8793F20096BF26 /* LoadJokeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB100242B8793F20096BF26 /* LoadJokeVC.swift */; };
+		3FB100272B8794020096BF26 /* JokeListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB100262B8794020096BF26 /* JokeListVC.swift */; };
+		3FB100292B8794120096BF26 /* JokeCategoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB100282B8794120096BF26 /* JokeCategoriesVC.swift */; };
+		3FB1002C2B87AC580096BF26 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB1002B2B87AC580096BF26 /* NetworkService.swift */; };
+		3FB1002E2B87AC6B0096BF26 /* DataBaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB1002D2B87AC6B0096BF26 /* DataBaseService.swift */; };
+		3FB100302B87B0AF0096BF26 /* JokeTabaleViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB1002F2B87B0AF0096BF26 /* JokeTabaleViewCell.swift */; };
+		3FB100322B87B1AD0096BF26 /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB100312B87B1AD0096BF26 /* CategoryTableViewCell.swift */; };
+		3FB100392B8C78FE0096BF26 /* JokeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB100382B8C78FE0096BF26 /* JokeResponse.swift */; };
+		3FB1003B2B8C79FA0096BF26 /* JokeRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB1003A2B8C79FA0096BF26 /* JokeRealm.swift */; };
+		3FB1003D2B8CCBAD0096BF26 /* LaunchScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB1003C2B8CCBAD0096BF26 /* LaunchScreenVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3FB100072B874F370096BF26 /* ChuckNorrisJokes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChuckNorrisJokes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FB1000A2B874F370096BF26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FB1000C2B874F370096BF26 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3FB1000E2B874F370096BF26 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3FB100112B874F370096BF26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3FB100132B874F380096BF26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FB100162B874F380096BF26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FB100182B874F380096BF26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FB100242B8793F20096BF26 /* LoadJokeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadJokeVC.swift; sourceTree = "<group>"; };
+		3FB100262B8794020096BF26 /* JokeListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeListVC.swift; sourceTree = "<group>"; };
+		3FB100282B8794120096BF26 /* JokeCategoriesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeCategoriesVC.swift; sourceTree = "<group>"; };
+		3FB1002B2B87AC580096BF26 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		3FB1002D2B87AC6B0096BF26 /* DataBaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseService.swift; sourceTree = "<group>"; };
+		3FB1002F2B87B0AF0096BF26 /* JokeTabaleViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeTabaleViewCell.swift; sourceTree = "<group>"; };
+		3FB100312B87B1AD0096BF26 /* CategoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewCell.swift; sourceTree = "<group>"; };
+		3FB100382B8C78FE0096BF26 /* JokeResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeResponse.swift; sourceTree = "<group>"; };
+		3FB1003A2B8C79FA0096BF26 /* JokeRealm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeRealm.swift; sourceTree = "<group>"; };
+		3FB1003C2B8CCBAD0096BF26 /* LaunchScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +49,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FB100222B8754E20096BF26 /* RealmSwift in Frameworks */,
+				3FB100202B8754E20096BF26 /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,15 +68,63 @@
 		3FB100092B874F370096BF26 /* ChuckNorrisJokes */ = {
 			isa = PBXGroup;
 			children = (
-				3FB1000A2B874F370096BF26 /* AppDelegate.swift */,
-				3FB1000C2B874F370096BF26 /* SceneDelegate.swift */,
-				3FB1000E2B874F370096BF26 /* ViewController.swift */,
-				3FB100102B874F370096BF26 /* Main.storyboard */,
-				3FB100132B874F380096BF26 /* Assets.xcassets */,
-				3FB100152B874F380096BF26 /* LaunchScreen.storyboard */,
+				3FB100372B8C78EB0096BF26 /* Models */,
 				3FB100182B874F380096BF26 /* Info.plist */,
+				3FB100362B87C3400096BF26 /* Application */,
+				3FB1002A2B87AC440096BF26 /* Services */,
+				3FB100232B8791070096BF26 /* ViewControllers */,
 			);
 			path = ChuckNorrisJokes;
+			sourceTree = "<group>";
+		};
+		3FB100232B8791070096BF26 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3FB100332B87B27B0096BF26 /* TableViewCells */,
+				3FB100242B8793F20096BF26 /* LoadJokeVC.swift */,
+				3FB100262B8794020096BF26 /* JokeListVC.swift */,
+				3FB100282B8794120096BF26 /* JokeCategoriesVC.swift */,
+				3FB1003C2B8CCBAD0096BF26 /* LaunchScreenVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3FB1002A2B87AC440096BF26 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3FB1002B2B87AC580096BF26 /* NetworkService.swift */,
+				3FB1002D2B87AC6B0096BF26 /* DataBaseService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		3FB100332B87B27B0096BF26 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				3FB1002F2B87B0AF0096BF26 /* JokeTabaleViewCell.swift */,
+				3FB100312B87B1AD0096BF26 /* CategoryTableViewCell.swift */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		3FB100362B87C3400096BF26 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				3FB1000A2B874F370096BF26 /* AppDelegate.swift */,
+				3FB1000C2B874F370096BF26 /* SceneDelegate.swift */,
+				3FB100152B874F380096BF26 /* LaunchScreen.storyboard */,
+				3FB100132B874F380096BF26 /* Assets.xcassets */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		3FB100372B8C78EB0096BF26 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3FB100382B8C78FE0096BF26 /* JokeResponse.swift */,
+				3FB1003A2B8C79FA0096BF26 /* JokeRealm.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		3FB1FFFE2B874F370096BF26 = {
@@ -83,6 +151,10 @@
 			dependencies = (
 			);
 			name = ChuckNorrisJokes;
+			packageProductDependencies = (
+				3FB1001F2B8754E20096BF26 /* Realm */,
+				3FB100212B8754E20096BF26 /* RealmSwift */,
+			);
 			productName = ChuckNorrisJokes;
 			productReference = 3FB100072B874F370096BF26 /* ChuckNorrisJokes.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +183,9 @@
 				Base,
 			);
 			mainGroup = 3FB1FFFE2B874F370096BF26;
+			packageReferences = (
+				3FB1001E2B8754E20096BF26 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = 3FB100082B874F370096BF26 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +202,6 @@
 			files = (
 				3FB100172B874F380096BF26 /* LaunchScreen.storyboard in Resources */,
 				3FB100142B874F380096BF26 /* Assets.xcassets in Resources */,
-				3FB100122B874F370096BF26 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +212,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FB1000F2B874F370096BF26 /* ViewController.swift in Sources */,
 				3FB1000B2B874F370096BF26 /* AppDelegate.swift in Sources */,
 				3FB1000D2B874F370096BF26 /* SceneDelegate.swift in Sources */,
+				3FB100302B87B0AF0096BF26 /* JokeTabaleViewCell.swift in Sources */,
+				3FB100292B8794120096BF26 /* JokeCategoriesVC.swift in Sources */,
+				3FB1003B2B8C79FA0096BF26 /* JokeRealm.swift in Sources */,
+				3FB100322B87B1AD0096BF26 /* CategoryTableViewCell.swift in Sources */,
+				3FB100272B8794020096BF26 /* JokeListVC.swift in Sources */,
+				3FB100252B8793F20096BF26 /* LoadJokeVC.swift in Sources */,
+				3FB1003D2B8CCBAD0096BF26 /* LaunchScreenVC.swift in Sources */,
+				3FB100392B8C78FE0096BF26 /* JokeResponse.swift in Sources */,
+				3FB1002E2B87AC6B0096BF26 /* DataBaseService.swift in Sources */,
+				3FB1002C2B87AC580096BF26 /* NetworkService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3FB100102B874F370096BF26 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3FB100112B874F370096BF26 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3FB100152B874F380096BF26 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,9 +372,9 @@
 				INFOPLIST_FILE = ChuckNorrisJokes/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,9 +400,9 @@
 				INFOPLIST_FILE = ChuckNorrisJokes/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -363,6 +438,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3FB1001E2B8754E20096BF26 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3FB1001F2B8754E20096BF26 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3FB1001E2B8754E20096BF26 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		3FB100212B8754E20096BF26 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3FB1001E2B8754E20096BF26 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3FB1FFFF2B874F370096BF26 /* Project object */;
 }
